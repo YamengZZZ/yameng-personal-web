@@ -5,151 +5,81 @@ page-layout: full
 title-block: false
 ---
 
-::: {.home-hero}
-::: {.home-hero__media}
-![](images/photo.png){.home-hero__portrait}
-:::
-
-::: {.home-hero__body}
+:::: {.home-hero}
+:::: {.home-hero__media}
+![](images/croped.jpg){.home-hero__portrait}
+::::
+:::: {.home-hero__body}
 # Yameng Zhang
 
-**Postdoctoral Researcher**
+<p class="home-hero__role">Postdoctoral Researcher</p>
 
-[Medical Intelligence and Robotic Cognition (MIRoC) Lab,](https://meweb.hku.hk/zljiang/people/)  
-[Department of Mechanical Engineering](https://mech.hku.hk/), [The University of Hong Kong](https://www.hku.hk/)
+<div class="home-hero__meta">
+  <p class="home-hero__item"><span class="home-hero__item-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s6-4.35 6-10a6 6 0 1 0-12 0c0 5.65 6 10 6 10Z"></path><circle cx="12" cy="11" r="2.5"></circle></svg></span><span class="home-hero__item-text"><a href="https://www.mrc-cuhk.com/">Multi-scale Medical Robotics Center</a>, <a href="https://www.innohk.gov.hk/en/r-d-centres/air-innohk/multi-scale-medical-robotics-center/">AIR@InnoHK</a>.</span></p>
+  <p class="home-hero__item"><span class="home-hero__item-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s6-4.35 6-10a6 6 0 1 0-12 0c0 5.65 6 10 6 10Z"></path><circle cx="12" cy="11" r="2.5"></circle></svg></span><span class="home-hero__item-text"><a href="https://meweb.hku.hk/zljiang/people/">Medical Intelligence and Robotic Cognition (MIRoC) Lab</a>, <a href="https://mech.hku.hk/">Mechanical Engineering Department</a>, <a href="https://www.hku.hk/">HKU</a>.</span></p>
+</div>
 
-Address: [Rm G10, Haking Wong Building, Pokfulam Road, HKSAR, China](https://maps.app.goo.gl/b7ppuy2MP5yQY4Nn9)  
-Email: [yamengzhang@mrc-cuhk.com](mailto:yamengzhang@mrc-cuhk.com) | [yamengzh@hku.hk](mailto:yamengzh@hku.hk)
+<p class="home-hero__contact"><span class="home-hero__contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m4 7 8 6 8-6"></path></svg></span><span class="home-hero__contact-text"><a href="mailto:yamengzhang@mrc-cuhk.com">yamengzhang@mrc-cuhk.com</a> | <a href="mailto:yamengzh@hku.hk">yamengzh@hku.hk</a></span></p>
 
-::: {.home-link-row}
-[Google Scholar](https://scholar.google.com/citations?user=tlkDP2AAAAAJ)
-[GitHub](https://scholar.google.com/citations?user=tlkDP2AAAAAJ)
-:::
+:::: {.home-link-row}
+[Google Scholar](https://scholar.google.com/citations?user=SFxTNpQAAAAJ&hl)
+[GitHub](https://github.com/YamengZZZ)
+[LinkedIn](https://www.linkedin.com/in/yameng-zhang-0ab4711bb/)
+[YouTube](https://www.youtube.com/@yamengzhang8563)
+::::
 
-:::
-:::
+::::
 
-::: {.home-main-grid}
-::: {.home-main-column}
+::::
+
+:::: {.home-main-grid}
+:::: {.home-main-column}
 ## About Me
 
-Professor Lian has been actively researching supply chain finance, leverage adjustment, trade credit, innovation, and related topics in empirical corporate finance. He teaches Financial Econometrics and Applied Econometrics.
+**Yameng Zhang (张亚蒙)** is currently a Postdoctoral Researcher of the [Medical Intelligence and Robotic Cognition (MIRoC) Lab](https://meweb.hku.hk/zljiang/people/), Department of Mechanical Engineering, The University of Hong Kong (HKU). He received his Ph.D. in Computer Science from the Technische Universität München (TUM), advised by Prof. Nassir Navab, in December 2025, graduating with *summa cum laude* (highest distinction). He obtained his M.Eng. and B.Eng. degrees from South China University of Technology (SCUT) in 2020 and 2017, respectively. From June 2025, he also works as a senior research scientist at the [Computer Aided Medical Procedures (CAMP) Chair](https://www.ar.tum.de/camp/startseite/) at TUM. His work has been published in leading venues such as IEEE TRO, IEEE TMI, IEEE TII, ICRA, and IROS. He also served as an Associate Editor for ICRA 2026 and IROS 2026.
 
-His teaching has been recognized by consecutive perfect evaluations in the MBA corporate finance course over three years, and he received the title of *My Favorite Teacher* in 2022 from Lingnan College.
+His research focuses on intelligent robotic ultrasound imaging systems, aiming to integrate multimodal sensing for human-like, autonomous ultrasound scanning. This multidisciplinary area lies at the intersection of robotics, computer vision, medical imaging, and machine learning. Accordingly, his research interests span medical image analysis, intelligent robot control and robot learning, including techniques (1). for general manipulation tasks that can be transferred across domains and (2). hold strong potential for the goal of advancing truly intelligent, clinically reliable, and patient-accepted medical robotic systems.
+::::
 
-He has also made substantial contributions to the [Stata](https://www.stata.com/) community through widely used packages such as `winsor2`, `xtbalance`, `bdiff`, and `sftt`. He is one of the initiators of the Chinese Stata Users Group Meeting and has delivered invited keynote talks in [2018](https://www.stata.com/meeting/china18/), [2020](https://www.stata.com/meeting/china20-Uone-Tech/), [2021](https://www.stata.com/meeting/china21-Uone-Tech/), [2022](https://www.stata.com/meeting/china22-Uone-Tech/), and [2023](https://www.stata.com/meeting/china23-Uone-Tech/).
+:::: {.home-side-column}
+## News
 
-## Research Areas
-
-- Causal inference and applied econometrics
-- Stochastic frontier analysis and efficiency measurement
-- Supply chain finance, trade credit, and capital structure
-- Stata-based empirical workflow design and reproducible research
-
-## Teaching
-
-- Financial Econometrics
-- Applied Econometrics
-- MBA Corporate Finance
-:::
-
-::: {.home-side-column}
-## Academic Timeline
-
-::: {.home-timeline}
-::: {.home-timeline__item}
-::: {.home-timeline__year}
-2024
-:::
-::: {.home-timeline__text}
-Visiting Professor, DeGroote School of Business, McMaster University.
-:::
-:::
-
-::: {.home-timeline__item}
-::: {.home-timeline__year}
-2015-2016
-:::
-::: {.home-timeline__text}
-Visiting Scholar, MIT Sloan School of Management, Massachusetts Institute of Technology.
-:::
-:::
-
-::: {.home-timeline__item}
-::: {.home-timeline__year}
-2011-Present
-:::
-::: {.home-timeline__text}
-Associate Professor, Lingnan College, Sun Yat-sen University, specializing in Quantitative Economics.
-:::
-:::
-
-::: {.home-timeline__item}
-::: {.home-timeline__year}
-2007-2010
-:::
-::: {.home-timeline__text}
-Lecturer, Department of Finance, Lingnan College, Sun Yat-sen University.
-:::
-:::
-
-::: {.home-timeline__item}
-::: {.home-timeline__year}
-2001-2007
-:::
-::: {.home-timeline__text}
-Ph.D. in Economics, Xi'an Jiaotong University, China.
-:::
-:::
-
-::: {.home-timeline__item}
-::: {.home-timeline__year}
-1997-2001
-:::
-::: {.home-timeline__text}
-Bachelor of Engineering, Xi'an Jiaotong University, China, majoring in Materials Science.
-:::
-:::
-:::
-
-## Quick Links
-
-- [Publications](publications.qmd)
-- [Books](books.qmd)
-- [Blogs](blog.qmd)
-- [Codes](codes.qmd)
-:::
-:::
+- [2026-07-07] Joined the [Medical Intelligence and Robotic Cognition (MIRoC) Lab](https://meweb.hku.hk/zljiang/people/), Department of Mechanical Engineering, The University of Hong Kong (HKU) as a Postdoctoral Researcher.
+- [2025-12-15] Received my Ph.D. in Computer Science from the Technische Universität München (TUM), advised by Prof. Nassir Navab, graduating with *summa cum laude* (highest distinction).
+- [2020-06-01] Received my M.Eng. in Computer Science from South China University of Technology (SCUT).
+- [2017-06-01] Received my B.Eng. in Computer Science from South China University of Technology (SCUT).
+::::
+::::
 
 ## Selected Publications
 
-::: {.home-publication-grid}
-::: {.home-publication-card}
+:::: {.home-publication-grid}
+:::: {.home-publication-card}
 ### [Share pledge lending, monetary policy, and shadow banking nexus](https://doi.org/10.1016/j.pacfin.2025.102772)
 
 Yan, C., **Lian, Y.**, Xu, X., and Chen, C.-C.  
 *Pacific-Basin Finance Journal*, 2025.
 
 [Journal link](https://doi.org/10.1016/j.pacfin.2025.102772)
-:::
+::::
 
-::: {.home-publication-card}
+:::: {.home-publication-card}
 ### [Fast or Slow: Unveiling the Speed of Market Leverage Adjustment in China](https://doi.org/10.1016/j.pacfin.2024.102423)
 
 **Lian, Y.**, Wang, J., and Huang, M.  
 *Pacific-Basin Finance Journal*, 2024.
 
 [Journal link](https://doi.org/10.1016/j.pacfin.2024.102423) [PDF](https://file-lianxh.oss-cn-shenzhen.aliyuncs.com/Refs/LianPub/Lian_2024_PBFJ_proof.pdf)
-:::
+::::
 
-::: {.home-publication-card}
+:::: {.home-publication-card}
 ### [Two-tier stochastic frontier analysis using Stata](https://journals.sagepub.com/doi/abs/10.1177/1536867X231162033)
 
 **Lian Yujun**, Chang Liu, and Christopher F. Parmeter  
 *Stata Journal*, 2023.
 
 [Journal link](https://journals.sagepub.com/doi/abs/10.1177/1536867X231162033) [Codes & Data](https://gitee.com/arlionn/sftt)
-:::
-:::
+::::
+::::
 
 [View the full publication list](publications.qmd)

@@ -207,7 +207,7 @@
     "href": "index.html",
     "title": "Yameng Zhang",
     "section": "",
-    "text": "Postdoctoral Researcher\nMedical Intelligence and Robotic Cognition (MIRoC) Lab,\nDepartment of Mechanical Engineering, The University of Hong Kong\nAddress: Rm G10, Haking Wong Building, Pokfulam Road, HKSAR, China\nEmail: yamengzhang@mrc-cuhk.com | yamengzh@hku.hk\n\nGoogle Scholar GitHub"
+    "text": "Postdoctoral Researcher\n\n\n\nMulti-scale Medical Robotics Center, AIR@InnoHK.\n\n\nMedical Intelligence and Robotic Cognition (MIRoC) Lab, Mechanical Engineering Department, HKU.\n\n\n\nyamengzhang@mrc-cuhk.com | yamengzh@hku.hk\n\n\nGoogle Scholar GitHub LinkedIn YouTube"
   },
   {
     "objectID": "index.html#background",
@@ -256,7 +256,7 @@
     "href": "index.html#about-me",
     "title": "Yameng Zhang",
     "section": "About Me",
-    "text": "About Me\nProfessor Lian has been actively researching supply chain finance, leverage adjustment, trade credit, innovation, and related topics in empirical corporate finance. He teaches Financial Econometrics and Applied Econometrics.\nHis teaching has been recognized by consecutive perfect evaluations in the MBA corporate finance course over three years, and he received the title of My Favorite Teacher in 2022 from Lingnan College.\nHe has also made substantial contributions to the Stata community through widely used packages such as winsor2, xtbalance, bdiff, and sftt. He is one of the initiators of the Chinese Stata Users Group Meeting and has delivered invited keynote talks in 2018, 2020, 2021, 2022, and 2023."
+    "text": "About Me\nYameng Zhang (张亚蒙) is currently a Postdoctoral Researcher of the Medical Intelligence and Robotic Cognition (MIRoC) Lab, Department of Mechanical Engineering, The University of Hong Kong (HKU). He received his Ph.D. in Computer Science from the Technische Universität München (TUM), advised by Prof. Nassir Navab, in December 2025, graduating with summa cum laude (highest distinction). He obtained his M.Eng. and B.Eng. degrees from South China University of Technology (SCUT) in 2020 and 2017, respectively. From June 2025, he also works as a senior research scientist at the Computer Aided Medical Procedures (CAMP) Chair at TUM. His work has been published in leading venues such as IEEE TRO, IEEE TMI, IEEE TII, ICRA, and IROS. He also served as an Associate Editor for ICRA 2026 and IROS 2026.\nHis research focuses on intelligent robotic ultrasound imaging systems, aiming to integrate multimodal sensing for human-like, autonomous ultrasound scanning. This multidisciplinary area lies at the intersection of robotics, computer vision, medical imaging, and machine learning. Accordingly, his research interests span medical image analysis, intelligent robot control and robot learning, including techniques (1). for general manipulation tasks that can be transferred across domains and (2). hold strong potential for the goal of advancing truly intelligent, clinically reliable, and patient-accepted medical robotic systems."
   },
   {
     "objectID": "index.html#research-areas",
@@ -292,5 +292,12 @@
     "title": "Yameng Zhang",
     "section": "Selected Publications",
     "text": "Selected Publications\n\n\nShare pledge lending, monetary policy, and shadow banking nexus\nYan, C., Lian, Y., Xu, X., and Chen, C.-C.\nPacific-Basin Finance Journal, 2025.\nJournal link\n\n\nFast or Slow: Unveiling the Speed of Market Leverage Adjustment in China\nLian, Y., Wang, J., and Huang, M.\nPacific-Basin Finance Journal, 2024.\nJournal link PDF\n\n\nTwo-tier stochastic frontier analysis using Stata\nLian Yujun, Chang Liu, and Christopher F. Parmeter\nStata Journal, 2023.\nJournal link Codes & Data\n\n\nView the full publication list"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Yameng Zhang",
+    "section": "News",
+    "text": "News\n\n[2026-07-07] Joined the Medical Intelligence and Robotic Cognition (MIRoC) Lab, Department of Mechanical Engineering, The University of Hong Kong (HKU) as a Postdoctoral Researcher.\n[2025-12-15] Received my Ph.D. in Computer Science from the Technische Universität München (TUM), advised by Prof. Nassir Navab, graduating with summa cum laude (highest distinction).\n[2020-06-01] Received my M.Eng. in Computer Science from South China University of Technology (SCUT).\n[2017-06-01] Received my B.Eng. in Computer Science from South China University of Technology (SCUT)."
   }
 ]
