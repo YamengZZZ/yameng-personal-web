@@ -1,62 +1,155 @@
 ---
-title: "Yujun Lian"
-image: images/lianyujun_2025.png
-about:
-  id: hero-heading
-  template: trestles
-  image-width: 12em
-  image-shape: round
-  links:
-    - icon: mailbox
-      text: arlionn@163.com
-      href: mailto:arlionn@163.com
-    - icon: github
-      text: arlionn
-      href: https://github.com/lianyujun
-    - icon: book
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=tlkDP2AAAAAJ
-    - icon: fingerprint
-      text: ORCID
-      href: https://orcid.org/0000-0002-2011-7535
-    - icon: brands zhihu
-      text: 知乎
-      href: https://www.zhihu.com/people/arlionn/
-    - icon: brands weibo
-      text: 微博
-      href: https://weibo.com/arlionn
-    - icon: brands xing
-      text: 小红书
-      href: https://www.xiaohongshu.com/user/profile/682968d9000000000a03da1a
-    - icon: solid user
-      text: 工作主页
-      href: https://lingnan.sysu.edu.cn/faculty/LianYujun
-    - icon: brands home
-      text: 连享会
-      href: https://www.lianxh.cn
-    - icon: 📝
-      text: CV
-      href: CV.pdf  
+title: "Yameng Zhang"
+toc: false
+page-layout: full
+title-block: false
 ---
 
-::: {#hero-heading}
+::: {.home-hero}
+::: {.home-hero__media}
+![](images/photo.png){.home-hero__portrait}
+:::
 
-Professor Lian's research interests lie in the field of causal inference methods and stochastic frontier analysis, with specific applications in investment, trade credit, and supply chain dynamics. He has been actively researching topics such as supply chain finance, leverage adjustment, trade credit, and innovation. He teaches courses in Financial Econometrics and Applied Econometrics. 
+::: {.home-hero__body}
+# Yameng Zhang
 
-His teaching abilities have been highly regarded, as evidenced by his consecutive perfect teaching evaluations in the MBA corporate finance course over a span of three years. He was was awarded the title of *My Favorite Teacher* in 2022 by Lignan College. 
+**Postdoctoral Researcher**
 
-With his expertise in applied econometrics, he has made significant contributions to the [Stata](https://www.stata.com/) community by developing several popular packages, including `winsor2`, `xtbalance`, `bdiff`, and `sftt`, which have been widely used by researchers in various fields. He is one of the initiators of the Chinese Stata Users Group Meeting, which is one of the imporat meeting of Stata Corporation. He has been invited several times as a guest speaker to deliver keynote speeches ([2018th](https://www.stata.com/meeting/china18/), [2020th](https://www.stata.com/meeting/china20-Uone-Tech/), [2021th](https://www.stata.com/meeting/china21-Uone-Tech/), [2022th](https://www.stata.com/meeting/china22-Uone-Tech/), [2023th](https://www.stata.com/meeting/china23-Uone-Tech/)).
+[Medical Intelligence and Robotic Cognition (MIRoC) Lab,](https://meweb.hku.hk/zljiang/people/)  
+[Department of Mechanical Engineering](https://mech.hku.hk/), [The University of Hong Kong](https://www.hku.hk/)
 
-He is also the founder of the website <https://www.lianxh.cn>, one of the largest academic websites in mainland China specializing in management and economics. Currently, it has published over 1300 articles introducing econometric and statistical methods. The WeChat official account lianxh_cn, established based on this website, has accumulated over 280,000 subscribers, with a total reading volume exceeding 20 million and a daily average reading volume exceeding 10,000.
+Address: [Rm G10, Haking Wong Building, Pokfulam Road, HKSAR, China](https://maps.app.goo.gl/b7ppuy2MP5yQY4Nn9)  
+Email: [yamengzhang@mrc-cuhk.com](mailto:yamengzhang@mrc-cuhk.com) | [yamengzh@hku.hk](mailto:yamengzh@hku.hk)
 
-
-## Background
-
-- Jan 2024 - Aug 2024: Visiting Professor, DeGroote School of Business, McMaster Univeristy. 
-- Aug 2015 - Jan 2016: Visiting Scholar, MIT Sloan School of Management, Massachusetts Institute of Technology
-- 2011 - Present: Associate Professor, Lingnan College, Sun Yat-sen University, specializing in Quantitative Economics
-- 2007-2010: Lecturer, Department of Finance, Lingnan College, Sun Yat-sen University
-- 2001-2007: Ph.D. in Economics, Xi'an Jiaotong University, China, specializing in Econometrics
-- 1997-2001: Bachelor of Engineering, Xi'an Jiaotong University, China, majoring in Materials Science.
+::: {.home-link-row}
+[Google Scholar](https://scholar.google.com/citations?user=tlkDP2AAAAAJ)
+[GitHub](https://scholar.google.com/citations?user=tlkDP2AAAAAJ)
+:::
 
 :::
+:::
+
+::: {.home-main-grid}
+::: {.home-main-column}
+## About Me
+
+Professor Lian has been actively researching supply chain finance, leverage adjustment, trade credit, innovation, and related topics in empirical corporate finance. He teaches Financial Econometrics and Applied Econometrics.
+
+His teaching has been recognized by consecutive perfect evaluations in the MBA corporate finance course over three years, and he received the title of *My Favorite Teacher* in 2022 from Lingnan College.
+
+He has also made substantial contributions to the [Stata](https://www.stata.com/) community through widely used packages such as `winsor2`, `xtbalance`, `bdiff`, and `sftt`. He is one of the initiators of the Chinese Stata Users Group Meeting and has delivered invited keynote talks in [2018](https://www.stata.com/meeting/china18/), [2020](https://www.stata.com/meeting/china20-Uone-Tech/), [2021](https://www.stata.com/meeting/china21-Uone-Tech/), [2022](https://www.stata.com/meeting/china22-Uone-Tech/), and [2023](https://www.stata.com/meeting/china23-Uone-Tech/).
+
+## Research Areas
+
+- Causal inference and applied econometrics
+- Stochastic frontier analysis and efficiency measurement
+- Supply chain finance, trade credit, and capital structure
+- Stata-based empirical workflow design and reproducible research
+
+## Teaching
+
+- Financial Econometrics
+- Applied Econometrics
+- MBA Corporate Finance
+:::
+
+::: {.home-side-column}
+## Academic Timeline
+
+::: {.home-timeline}
+::: {.home-timeline__item}
+::: {.home-timeline__year}
+2024
+:::
+::: {.home-timeline__text}
+Visiting Professor, DeGroote School of Business, McMaster University.
+:::
+:::
+
+::: {.home-timeline__item}
+::: {.home-timeline__year}
+2015-2016
+:::
+::: {.home-timeline__text}
+Visiting Scholar, MIT Sloan School of Management, Massachusetts Institute of Technology.
+:::
+:::
+
+::: {.home-timeline__item}
+::: {.home-timeline__year}
+2011-Present
+:::
+::: {.home-timeline__text}
+Associate Professor, Lingnan College, Sun Yat-sen University, specializing in Quantitative Economics.
+:::
+:::
+
+::: {.home-timeline__item}
+::: {.home-timeline__year}
+2007-2010
+:::
+::: {.home-timeline__text}
+Lecturer, Department of Finance, Lingnan College, Sun Yat-sen University.
+:::
+:::
+
+::: {.home-timeline__item}
+::: {.home-timeline__year}
+2001-2007
+:::
+::: {.home-timeline__text}
+Ph.D. in Economics, Xi'an Jiaotong University, China.
+:::
+:::
+
+::: {.home-timeline__item}
+::: {.home-timeline__year}
+1997-2001
+:::
+::: {.home-timeline__text}
+Bachelor of Engineering, Xi'an Jiaotong University, China, majoring in Materials Science.
+:::
+:::
+:::
+
+## Quick Links
+
+- [Publications](publications.qmd)
+- [Books](books.qmd)
+- [Blogs](blog.qmd)
+- [Codes](codes.qmd)
+:::
+:::
+
+## Selected Publications
+
+::: {.home-publication-grid}
+::: {.home-publication-card}
+### [Share pledge lending, monetary policy, and shadow banking nexus](https://doi.org/10.1016/j.pacfin.2025.102772)
+
+Yan, C., **Lian, Y.**, Xu, X., and Chen, C.-C.  
+*Pacific-Basin Finance Journal*, 2025.
+
+[Journal link](https://doi.org/10.1016/j.pacfin.2025.102772)
+:::
+
+::: {.home-publication-card}
+### [Fast or Slow: Unveiling the Speed of Market Leverage Adjustment in China](https://doi.org/10.1016/j.pacfin.2024.102423)
+
+**Lian, Y.**, Wang, J., and Huang, M.  
+*Pacific-Basin Finance Journal*, 2024.
+
+[Journal link](https://doi.org/10.1016/j.pacfin.2024.102423) [PDF](https://file-lianxh.oss-cn-shenzhen.aliyuncs.com/Refs/LianPub/Lian_2024_PBFJ_proof.pdf)
+:::
+
+::: {.home-publication-card}
+### [Two-tier stochastic frontier analysis using Stata](https://journals.sagepub.com/doi/abs/10.1177/1536867X231162033)
+
+**Lian Yujun**, Chang Liu, and Christopher F. Parmeter  
+*Stata Journal*, 2023.
+
+[Journal link](https://journals.sagepub.com/doi/abs/10.1177/1536867X231162033) [Codes & Data](https://gitee.com/arlionn/sftt)
+:::
+:::
+
+[View the full publication list](publications.qmd)
