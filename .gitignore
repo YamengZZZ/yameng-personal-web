@@ -3,9 +3,21 @@
 .RData
 .Ruserdata
 .DS_Store
+Thumbs.db
 
-/.quarto/
+# Quarto cache / preview / temp files
+.quarto/
+_site/
+.quarto-preview/
+*.quarto_ipynb
+*.nb.html
+*.html.preview
 
-**/*.quarto_ipynb
+# Common local editor / system files
+.vscode/
+.idea/
+*.log
+*.tmp
+*.temp
 
 docs/
