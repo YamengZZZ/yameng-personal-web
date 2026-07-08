@@ -36,9 +36,10 @@ title-block: false
 :::: {.home-main-column}
 ## About Me
 
-Hi there! My name is **Yameng Zhang (张亚蒙)**. I am a Postdoctoral Researcher at the [Multi-scale Medical Robotics Center (MRC)](https://www.mrc-cuhk.com/), [AIR@InnoHK](https://www.innohk.gov.hk/en/r-d-centres/air-innohk/multi-scale-medical-robotics-center/), and a member of the [Medical Intelligence and Robotic Cognition (MIRoC) Lab](https://meweb.hku.hk/zljiang/people/) in the [Department of Mechanical Engineering](https://mech.hku.hk/) at [The University of Hong Kong (HKU)](https://www.hku.hk/). I received my Ph.D. in [Electronic Engineering](https://www.ee.cuhk.edu.hk/en-gb/) from [The Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/chinese/index.html) in 2025, under the supervision of [Prof. Max Q.-H. Meng](https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/chairman/30-prof-qing-hu-max-meng) and [Prof. Hongliang Ren](https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-ren-hongliang). From October 2024 to March 2025, I was a visiting Ph.D. student at the [Computer Aided Medical Procedures (CAMP) Chair](https://www.cs.cit.tum.de/en/camp/start/), [Technische Universität München (TUM)](https://www.tum.de/en/), advised by [Prof. Nassir Navab](https://www.cs.cit.tum.de/camp/members/cv-nassir-navab/nassir-navab/) and [Prof. Zhongliang Jiang](https://meweb.hku.hk/zljiang/). Prior to that, I earned my M.Eng. in [Mechanical Engineering](https://me.sjtu.edu.cn/) from [Shanghai Jiao Tong University (SJTU)](https://me.sjtu.edu.cn/) in 2021 and my B.Eng. in [Vehicle Engineering](https://me.bit.edu.cn/) from the [Beijing Institute of Technology (BIT)](https://www.bit.edu.cn/) in 2017.
+Hi there! My name is **Yameng Zhang (张亚蒙)**. I am a Postdoctoral Researcher at the [Multi-scale Medical Robotics Center (MRC)](https://www.mrc-cuhk.com/), [AIR@InnoHK](https://www.innohk.gov.hk/en/r-d-centres/air-innohk/multi-scale-medical-robotics-center/), and a member of the [Medical Intelligence and Robotic Cognition (MIRoC) Lab](https://meweb.hku.hk/zljiang/people/) in the [Department of Mechanical Engineering](https://mech.hku.hk/) at [The University of Hong Kong (HKU)](https://www.hku.hk/). I received my Ph.D. in [Electronic Engineering](https://www.ee.cuhk.edu.hk/en-gb/) from [The Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/chinese/index.html) in 2025, supervised by [Prof. Max Q.-H. Meng](https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/chairman/30-prof-qing-hu-max-meng) and [Prof. Hongliang Ren](https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-ren-hongliang). From Oct. 2024 to Mar. 2025, I was a visiting Ph.D. student at the [Computer Aided Medical Procedures (CAMP) Chair](https://www.cs.cit.tum.de/en/camp/start/), [Technische Universität München (TUM)](https://www.tum.de/en/), advised by [Prof. Nassir Navab](https://www.cs.cit.tum.de/camp/members/cv-nassir-navab/nassir-navab/) and [Prof. Zhongliang Jiang](https://meweb.hku.hk/zljiang/). Prior to that, I earned my M.Eng. in [Mechanical Engineering](https://me.sjtu.edu.cn/) from [Shanghai Jiao Tong University (SJTU)](https://en.sjtu.edu.cn/) in 2021 and my B.Eng. in [Vehicle Engineering](https://me.bit.edu.cn/) from [Beijing Institute of Technology (BIT)](https://english.bit.edu.cn/) in 2017.
 
-My research interests lie in **Medical Robotics and Imaging**, with a particular focus on **Intelligent Robotic Ultrasound Imaging Systems**. My work spans ultrasound image analysis, multi-modal information sensing with AI-assisted fusion, and 3-D reconstruction and visualization. I am also interested in **Robot Learning and Control** for efficient robotic perception and manipulation. In addition, I have extensive experience in **Medical Robotic System Design and Control**, encompassing robotic hardware and software development as well as vision- and magnetic-based control algorithms. Together, these multidisciplinary strengths drive my overarching research goal: to advance truly intelligent, clinically reliable, and patient-accepted medical robotic systems.
+My research interests lie in **Medical Robotics and Imaging**, with a particular focus on **Intelligent Robotic Ultrasound Imaging Systems**. My work spans ultrasound image analysis, multi-modal sensing and AI-assisted fusion, and 3-D reconstruction and visualization. I am also interested in **Robot Learning and Control** for efficient robotic perception and manipulation. In addition, I have extensive experience in **Medical Robotic System Design and Control**, encompassing robotic hardware and software development as well as vision- and magnetic-based control algorithms. Together, these multidisciplinary backgrounds drive my overarching research goal: to advance truly intelligent, clinically reliable, and patient-accepted medical robotic systems.
+
 
 ::::
 
@@ -47,6 +48,8 @@ My research interests lie in **Medical Robotics and Imaging**, with a particular
 ## News
 
 ::: {.home-news__scroll}
+
+
 - [2026-07-07] Joined the [Medical Intelligence and Robotic Cognition (MIRoC) Lab](https://meweb.hku.hk/zljiang/people/), Department of Mechanical Engineering, The University of Hong Kong (HKU) as a Postdoctoral Researcher.
 - [2025-12-15] Received my Ph.D. in Computer Science from the Technische Universität München (TUM), advised by Prof. Nassir Navab, graduating with *summa cum laude* (highest distinction).
 - [2020-06-01] Received my M.Eng. in Computer Science from South China University of Technology (SCUT).
@@ -181,14 +184,25 @@ Robotics: Science and Systems (RSS), International Conference on Robotics and Au
 ```{=html}
 <script>
 (function () {
+  var resizeObserver;
+
   function syncNewsHeight() {
     var about = document.querySelector('.home-main-column');
     var inner = document.querySelector('.home-side-column__inner');
     if (!about || !inner) return;
     inner.style.height = '';
-    if (window.matchMedia('(max-width: 960px)').matches) return;
     inner.style.height = about.getBoundingClientRect().height + 'px';
+
+    if (!resizeObserver && 'ResizeObserver' in window) {
+      resizeObserver = new ResizeObserver(syncNewsHeight);
+      resizeObserver.observe(about);
+    }
   }
+
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(syncNewsHeight);
+  }
+
   window.addEventListener('load', syncNewsHeight);
   window.addEventListener('resize', syncNewsHeight);
 })();
