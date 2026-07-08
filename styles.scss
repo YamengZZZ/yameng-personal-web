@@ -209,6 +209,22 @@ h4 {
   border-color: rgba(255, 255, 255, 0.4);
 }
 
+.footer .nav-footer-center,
+#quarto-footer .nav-footer-center {
+  white-space: nowrap;
+}
+
+.footer .nav-footer,
+#quarto-footer .nav-footer {
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+  min-height: auto;
+}
+
+main.content {
+  padding-bottom: 0.5rem;
+}
+
 @media (min-width: 992px) {
   #quarto-header .navbar-container.container-fluid {
     display: flex;

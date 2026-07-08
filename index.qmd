@@ -15,8 +15,8 @@ title-block: false
 <p class="home-hero__role">Postdoctoral Researcher in Medical Robotics and Imaging</p>
 
 <div class="home-hero__meta">
-  <p class="home-hero__item"><span class="home-hero__item-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s6-4.35 6-10a6 6 0 1 0-12 0c0 5.65 6 10 6 10Z"></path><circle cx="12" cy="11" r="2.5"></circle></svg></span><span class="home-hero__item-text"><a href="https://www.mrc-cuhk.com/">Multi-scale Medical Robotics Center</a>, <a href="https://www.innohk.gov.hk/en/r-d-centres/air-innohk/multi-scale-medical-robotics-center/">AIR@InnoHK</a>.</span></p>
-  <p class="home-hero__item"><span class="home-hero__item-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s6-4.35 6-10a6 6 0 1 0-12 0c0 5.65 6 10 6 10Z"></path><circle cx="12" cy="11" r="2.5"></circle></svg></span><span class="home-hero__item-text"><a href="https://meweb.hku.hk/zljiang/people/">Medical Intelligence and Robotic Cognition (MIRoC) Lab</a>, <a href="https://mech.hku.hk/">Department of Mechanical Engineering</a>, <a href="https://www.hku.hk/">The University of Hong Kong</a>.</span></p>
+  <p class="home-hero__item"><span class="home-hero__item-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s6-4.35 6-10a6 6 0 1 0-12 0c0 5.65 6 10 6 10Z"></path><circle cx="12" cy="11" r="2.5"></circle></svg></span><span class="home-hero__item-text"><a href="https://www.mrc-cuhk.com/">Multi-scale Medical Robotics Center</a>, <a href="https://www.innohk.gov.hk/en/r-d-centres/air-innohk/multi-scale-medical-robotics-center/">AIR@InnoHK</a></span></p>
+  <p class="home-hero__item"><span class="home-hero__item-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s6-4.35 6-10a6 6 0 1 0-12 0c0 5.65 6 10 6 10Z"></path><circle cx="12" cy="11" r="2.5"></circle></svg></span><span class="home-hero__item-text"><a href="https://meweb.hku.hk/zljiang/people/">Medical Intelligence and Robotic Cognition (MIRoC) Lab</a>, <a href="https://mech.hku.hk/">Department of Mechanical Engineering</a>, <a href="https://www.hku.hk/">The University of Hong Kong</a></span></p>
 </div>
 
 <p class="home-hero__contact"><span class="home-hero__contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m4 7 8 6 8-6"></path></svg></span><span class="home-hero__contact-text"><a href="mailto:yamengzhang@mrc-cuhk.com">yamengzhang@mrc-cuhk.com</a> | <a href="mailto:yamengzh@hku.hk">yamengzh@hku.hk</a></span></p>
@@ -113,31 +113,23 @@ My research interests lie in **Medical Robotics and Imaging**, with a particular
 </div>
 ```
 
-<!-- [View the full publication list](publications.qmd) -->
+[View the full publication list](publications.qmd)
 
 ## Selected Honors and Awards
 
 ```{=html}
 <div class="plain-list">
-2025, IEEE T-MI Distinguished Reviewer<br>
-2025, First Place Award in ACM MM 2025 RoboSoft Workshop<br>
-2025, Best Poster Award in IROS 2025 Workshop on Soft Tissue Manipulation<br>
-2025, Yamaguchi Medal from Asian-Pacific Association for Biomechanics<br>
-2025, MICCAI Young Scientist Award (5/3677)<br>
-2025, Ant Group Intech-Future Scholarship (10 Awardees Worldwide)<br>
-2025, IROS IES SYP Travel Award<br>
-2025, MRC Symposium Best Application Award<br>
-2024, MICCAI Best Paper Runner Up (3/2771)<br>
-2024, Runner Up of MICCAI BraTS Challenge on Sub-Sahara-Africa Adult Glioma<br>
-2024, PhD International Mobility for Partnerships and Collaborations (IMPAC) Award<br>
-2024, IPCAI Best Paper Award Shortlist<br>
-2024, CUHK Overseas Research Attachment Scholarship (12 Awardees in CUHK)<br>
-2024, Best Poster Award in ICRA 2024 C4SR+ Workshop<br>
-2024, ICRA RAS Travel Grants Award<br>
-2023, ICBIR Best Student Paper Award<br>
-2023, Best Poster Award in ICRA 2023 Workshop on Surgical Robotics<br>
-2023, ICRA RAS Travel Grants Award<br>
-2021, CUHK Vice-Chancellor's Ph.D. Scholarship Scheme
+2026, Best Poster Award in IEEE ICRA 2026 RAMI Workshop<br>
+2024, CUHK Tutor Commendation Award<br>
+2024, CUHK PhD International Mobility for Partnerships and Collaborations (IMPAC) Award<br>
+2024, Best Poster Award in IEEE ICRA 2024 C4SR+ Workshop<br>
+2021, CUHK Vice-Chancellor’s Ph.D. Scholarship Scheme<br>
+2019, SJTU Guang Hua Scholarship<br>
+2018, SJTU Changjiang Siyuan Scholarship<br>
+2017, Beijing Outstanding Graduate Award<br>
+2016, BIT Jiang Lu Scholarship<br>
+2015, BIT DWIN Technology Scholarship<br>
+2014, First Prize in National Undergraduate Mathematics Competition<br>
 </div>
 ```
 
@@ -169,7 +161,7 @@ Robotics: Science and Systems (RSS), International Conference on Robotics and Au
 ```
 
 
-```{=html}
+<!-- ```{=html}
 <script>
 (function () {
   var resizeObserver;
@@ -195,4 +187,4 @@ Robotics: Science and Systems (RSS), International Conference on Robotics and Au
   window.addEventListener('resize', syncNewsHeight);
 })();
 </script>
-```
+``` -->
