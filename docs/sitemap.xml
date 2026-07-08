@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://lianyujun.github.io/Teaching.html</loc>
+    <lastmod>2026-07-08T06:48:13.899Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lianyujun.github.io/publications.html</loc>
+    <lastmod>2026-07-08T19:08:56.376Z</lastmod>
+  </url>
+  <url>
     <loc>https://lianyujun.github.io/index.html</loc>
-    <lastmod>2026-07-07T15:49:01.478Z</lastmod>
+    <lastmod>2026-07-08T19:09:47.293Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lianyujun.github.io/codes.html</loc>
+    <lastmod>2026-07-08T06:48:13.912Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lianyujun.github.io/books.html</loc>
+    <lastmod>2026-07-08T06:48:13.910Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lianyujun.github.io/about.html</loc>
+    <lastmod>2026-07-08T06:48:13.909Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lianyujun.github.io/blog.html</loc>
+    <lastmod>2026-07-08T06:48:13.910Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lianyujun.github.io/Chinese.html</loc>
+    <lastmod>2026-07-08T06:48:13.898Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lianyujun.github.io/CV.html</loc>
+    <lastmod>2026-07-08T06:48:13.893Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lianyujun.github.io/news.html</loc>
+    <lastmod>2026-07-08T12:06:19.177Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lianyujun.github.io/readme.html</loc>
+    <lastmod>2026-07-08T06:48:13.945Z</lastmod>
   </url>
 </urlset>

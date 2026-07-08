@@ -21,3 +21,5 @@ _site/
 *.temp
 
 docs/
+/.quarto/
+**/*.quarto_ipynb
