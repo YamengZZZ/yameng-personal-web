@@ -12,7 +12,7 @@ title-block: false
 :::: {.home-hero__body}
 # Yameng Zhang
 
-<p class="home-hero__role">Postdoctoral Researcher in Robotics and Imaging</p>
+<p class="home-hero__role">Postdoctoral Researcher in Medical Robotics and Imaging</p>
 
 <div class="home-hero__meta">
   <p class="home-hero__item"><span class="home-hero__item-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s6-4.35 6-10a6 6 0 1 0-12 0c0 5.65 6 10 6 10Z"></path><circle cx="12" cy="11" r="2.5"></circle></svg></span><span class="home-hero__item-text"><a href="https://www.mrc-cuhk.com/">Multi-scale Medical Robotics Center</a>, <a href="https://www.innohk.gov.hk/en/r-d-centres/air-innohk/multi-scale-medical-robotics-center/">AIR@InnoHK</a></span></p>
