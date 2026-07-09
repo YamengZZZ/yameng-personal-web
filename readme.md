@@ -1,24 +1,80 @@
+# Yameng Zhang Personal Website
 
-## 如何生成个人主页
+This repository contains the source code for my personal academic website built with [Quarto](https://quarto.org/).
 
-我的 [个人主页](https://lianxhcn.github.io/) 是基于 [Chi Zhang](https://chizapoth.github.io/) ([github](https://github.com/chizapoth/chizapoth.github.io)) 的个人主页修改而来的。 
+The website includes:
 
-你可以 Fork 本仓库，然后酌情修改你的个人信息，编译后即可生成你的个人主页。这种方法无需注册域名，也不用学习 HTML 和 CSS 等前端知识，直接使用 GitHub Pages 即可完成个人主页的搭建。
+- Home page
+- Publications
+- News
+- Academic services
+- Teaching
 
-具体制作过程参见：
+## Tech Stack
 
-- 连小白, 2025, [50 分钟搞定个人主页：Fork 模板 + GitHub Pages + Quarto 完整教程](https://www.lianxh.cn/details/1644.html).
+- [Quarto](https://quarto.org/)
+- SCSS for custom styling
+- GitHub Pages for deployment
 
-本仓库的使用方法：
+## Project Structure
 
-- 你可以点击本页右上方的 ⭐**Star** 按钮来收藏本仓库，方便日后查阅；
-- 也可以点击 **Use this template** 按钮来快速 Fork 本仓库。
-- 你制作个人主页期间有任何问题，可以在 [Discussions](https://github.com/lianyujun/lianyujun.github.io/discussions) 提问和讨论。
+```text
+.
+├── _quarto.yml
+├── index.qmd
+├── publications.qmd
+├── news.qmd
+├── styles.scss
+├── images/
+└── docs/
+```
 
---- 
+- `_quarto.yml`: site configuration
+- `index.qmd`: homepage
+- `publications.qmd`: full publication list
+- `news.qmd`: news page
+- `styles.scss`: custom website styles
+- `docs/`: rendered site output for deployment
 
-<center>
+## Local Preview
 
-[主页](https://www.lianxh.cn/) | [课程](https://www.lianxh.cn/details/17.html) | [视频](https://lianxh-class.cn/) | [推文](https://www.lianxh.cn/blogs/all.html) | [资料](https://www.lianxh.cn/share.html)
+Make sure Quarto is installed first.
 
-</center>
+Preview the website locally:
+
+```bash
+quarto preview index.qmd --no-browser --no-watch-inputs
+```
+
+Or render the full site:
+
+```bash
+quarto render
+```
+
+After rendering, the generated static files will be placed in `docs/`.
+
+## Deployment
+
+This website is intended to be deployed with GitHub Pages using the `docs/` folder.
+
+Recommended steps:
+
+1. Render the site locally with `quarto render`.
+2. Commit both the source files and the generated `docs/` folder.
+3. Push the repository to GitHub.
+4. In the GitHub repository, go to `Settings` -> `Pages`.
+5. Set the source to `Deploy from a branch`.
+6. Choose your main branch and the `/docs` folder.
+
+Once GitHub Pages finishes deployment, the site will be publicly available at your GitHub Pages URL.
+
+## Notes
+
+- Update `site-url` and `repo-url` in `_quarto.yml` to match your GitHub account and repository.
+- If `docs/` is ignored in `.gitignore`, remove that rule before deployment.
+- Video embeds and publication links can be updated directly in `index.qmd`.
+
+## License
+
+This project is for personal website use. Please adapt the content responsibly if you reuse the structure or styling.
