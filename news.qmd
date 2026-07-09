@@ -3,7 +3,16 @@ title: "News"
 toc: false
 ---
 
-- [2026-07-07] Joined the [Medical Intelligence and Robotic Cognition (MIRoC) Lab](https://meweb.hku.hk/zljiang/people/), Department of Mechanical Engineering, The University of Hong Kong (HKU) as a Postdoctoral Researcher.
-- [2025-12-15] Received my Ph.D. in Computer Science from the Technische Universität München (TUM), advised by Prof. Nassir Navab, graduating with *summa cum laude* (highest distinction).
-- [2020-06-01] Received my M.Eng. in Computer Science from South China University of Technology (SCUT).
-- [2017-06-01] Received my B.Eng. in Computer Science from South China University of Technology (SCUT).
+[2026-06-08] One paper accepted by [Hamlyn Symposium on Medical Robotics 2026](https://www.hamlynsymposium.org/) as an oral presentation.
+
+[2026-06-01] Received the Best Poster Award at the [IEEE ICRA 2026 RAMI Workshop](https://sites.google.com/view/rami-icra-2026-workshop/highlights).
+
+[2026-03-02] One paper accepted by [IEEE Transactions on Instrumentation & Measurement (TIM)](https://ieeexplore.ieee.org/document/11449287/).
+
+[2026-01-05] Joined the [Multi-scale Medical Robotics Center (MRC)](https://www.mrc-cuhk.com/) as an [RTH-ITF](https://www.itf.gov.hk/en/funding-programmes/nurturing-talent/research-talent-hub/research-talent-hub-for-itf-projects-rth-itf-/index.html) Postdoctoral Researcher.
+
+[2025-10-05] One paper accepted by [IEEE/ASME Transactions on Mechatronics (TMECH)](https://ieeexplore.ieee.org/document/11231023/).
+
+[2025-10-03] Joined the [Medical Intelligence and Robotic Cognition (MIRoC) Lab](https://meweb.hku.hk/zljiang/people/), [The University of Hong Kong (HKU)](https://www.hku.hk/) as a Postdoctoral Researcher.
+
+[2025-07-31] Received my Ph.D. degree in [Electronic Engineering](https://www.ee.cuhk.edu.hk/en-gb/) from [The Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/chinese/index.html).

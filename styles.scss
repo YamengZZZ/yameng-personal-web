@@ -506,14 +506,15 @@ body:has(.home-hero) #title-block-header {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin-top: 1.5rem;
   margin-bottom: 1.2rem;
 }
 
 .pub-item {
   display: grid;
-  grid-template-columns: 200px minmax(0, 1fr);
+  grid-template-columns: 280px minmax(0, 1fr);
   gap: 1.5rem;
-  align-items: start;
+  align-items: stretch;
   padding-bottom: 2rem;
   border-bottom: 1px solid #eeeeee;
 }
@@ -526,7 +527,43 @@ body:has(.home-hero) #title-block-header {
 .pub-thumb {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
   gap: 0;
+}
+
+.pub-video {
+  width: 100%;
+  max-width: 280px;
+  height: 100%;
+  min-height: 180px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #e8e8e8;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.1);
+}
+
+.pub-video iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.pub-thumb-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 130px;
+  border: 1px dashed rgba(30, 58, 95, 0.28);
+  border-radius: 10px;
+  background: linear-gradient(135deg, #f7f8fb 0%, #eceff5 100%);
+  color: #6b7280;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
 }
 
 .pub-badge {
@@ -620,6 +657,15 @@ body:has(.home-hero) #title-block-header {
 @media (max-width: 640px) {
   .pub-item {
     grid-template-columns: 1fr;
+  }
+  .pub-thumb {
+    align-items: stretch;
+    height: auto;
+  }
+  .pub-video {
+    max-width: none;
+    height: auto;
+    aspect-ratio: 16 / 9;
   }
   .pub-thumb img {
     height: 160px;
