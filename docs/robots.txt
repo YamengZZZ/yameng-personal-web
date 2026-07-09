@@ -1,1 +1,1 @@
-Sitemap: https://YamengZZZ.github.io/yameng-personal-web/sitemap.xml
+Sitemap: https://YamengZZZ.github.io/sitemap.xml
