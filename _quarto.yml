@@ -5,9 +5,9 @@ project:
 website:
   page-navigation: true
   title: "Yameng Zhang"
-  site-url: https://lianyujun.github.io
+  site-url: https://YamengZZZ.github.io/yameng-personal-web/
   favicon: images/site-logo.svg
-  repo-url: https://github.com/lianyujun/lianyujun.github.io
+  repo-url: https://github.com/YamengZZZ/yameng-personal-web
   
   page-footer:
     center: |
