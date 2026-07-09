@@ -20,6 +20,6 @@ _site/
 *.tmp
 *.temp
 
-docs/
+# docs/
 /.quarto/
 **/*.quarto_ipynb
